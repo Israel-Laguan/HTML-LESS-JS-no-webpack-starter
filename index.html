@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Great Page!</title>
+    <!-- LESS -->
+    <link rel="stylesheet/less" type="text/css" href="src/css/main.less" />
+    <script>
+        less = {
+           env: "development",
+           logLevel: 2,
+           async: false,
+           fileAsync: false,
+           poll: 1000,
+           functions: {},
+           dumpLineNumbers: "comments",
+           relativeUrls: true,
+           globalVars: {
+              var1: '"string value"',
+              var2: 'regular value'
+           }
+        };
+     </script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/3.9.0/less.min.js" ></script>
+    <script>less.watch();</script>
+</head>
+<body>
+    <div class = "container">
+        <h1>First Heading</h1>
+        <p>LESS is a dynamic style sheet language that extends the capability of CSS.</p>
+        <div class = "myclass">
+           <h1>Second Heading</h1>
+           <p>LESS enables customizable, manageable and reusable style sheet for web site.</p>
+        </div>
+     </div>
+</body>
+</html>
