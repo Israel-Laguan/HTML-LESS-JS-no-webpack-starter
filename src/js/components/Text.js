@@ -1,4 +1,4 @@
-import Text from './Text/index';
+import Text from './Text/index.js';
 
 (() => window.customElements.define('my-text', Text))();
 

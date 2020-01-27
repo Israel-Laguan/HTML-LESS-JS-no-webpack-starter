@@ -1,4 +1,4 @@
-import pStyle from './Text.style';
+import pStyle from './TextStyle.js';
 
 const pTemplate = (style = { css: 'font-style: inherit;' }) => {
   const template = document.createElement('template');

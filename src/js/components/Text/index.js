@@ -1,10 +1,12 @@
-import pTemplate from './Text.template';
+import pTemplate from './TextTemplate.js';
 
 export default class Text extends HTMLElement {
   constructor() {
     super();
-    this.shadowRoot = this.attachShadow({ mode: 'open' });
-    this.shadowRoot.appendChild(pTemplate().content.cloneNode(true));
+    // eslint-disable-next-line
+    this._shadowRoot = this.attachShadow({ mode: 'open' });
+    // eslint-disable-next-line
+    this._shadowRoot.appendChild(pTemplate().content.cloneNode(true));
   }
 
   static get observedAttributes() {
