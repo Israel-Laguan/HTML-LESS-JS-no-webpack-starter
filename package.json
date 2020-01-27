@@ -4,7 +4,9 @@
   "description": "Single page webpage with LESS support and vanillaJS framework",
   "main": "index.js",
   "scripts": {
-    "test": "npx eslint ."
+    "start": "serve .",
+    "test": "eslint .",
+    "fix": "eslint . --fix"
   },
   "repository": {
     "type": "git",
@@ -18,7 +20,7 @@
     "eslint"
   ],
   "author": "Israel Laguan",
-  "license": "ISC",
+  "license": "Apache 2",
   "bugs": {
     "url": "https://github.com/Israel-Laguan/HTML-LESS-JS-no-webpack-starter/issues"
   },
