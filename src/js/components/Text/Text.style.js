@@ -1,7 +1,7 @@
-export const pStyle = (props=null) => `
+export const pStyle = (props = null) => `
     <style>
         p {
             ${props.css ? props.css : props.p}
         }
     </style>
-`
+`;
