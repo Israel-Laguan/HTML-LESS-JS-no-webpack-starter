@@ -1,3 +1,4 @@
+// @ts-check
 import pTemplate from './TextTemplate.js';
 
 export default class Text extends HTMLElement {

@@ -1,3 +1,5 @@
+// @ts-check
+
 import pStyle from './TextStyle.js';
 
 const pTemplate = (style = { css: 'font-style: inherit;' }) => {

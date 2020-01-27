@@ -1,3 +1,5 @@
+// @ts-check
+
 const pStyle = (props = null) => `
     <style>
         p {
