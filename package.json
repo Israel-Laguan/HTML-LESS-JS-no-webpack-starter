@@ -1,0 +1,33 @@
+{
+  "name": "html-less-js-no-webpack-starter",
+  "version": "1.0.0",
+  "description": "Single page webpage with LESS support and vanillaJS framework",
+  "main": "index.js",
+  "scripts": {
+    "start": "serve .",
+    "test": "eslint .",
+    "fix": "eslint . --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Israel-Laguan/HTML-LESS-JS-no-webpack-starter.git"
+  },
+  "keywords": [
+    "starter",
+    "javascript",
+    "js",
+    "template",
+    "eslint"
+  ],
+  "author": "Israel Laguan",
+  "license": "Apache 2",
+  "bugs": {
+    "url": "https://github.com/Israel-Laguan/HTML-LESS-JS-no-webpack-starter/issues"
+  },
+  "homepage": "https://github.com/Israel-Laguan/HTML-LESS-JS-no-webpack-starter#readme",
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.20.0"
+  }
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>My Great Page!</title>
+    <!-- LESS -->
+    <link rel="stylesheet/less" type="text/css" href="src/css/main.less" />
+    <link rel="stylesheet/less" type="text/css" href="src/css/components.less" />
+    <script>
+      less = {
+        env: "development",
+        logLevel: 2,
+        async: false,
+        fileAsync: false,
+        poll: 1000,
+        functions: {},
+        dumpLineNumbers: "comments",
+        relativeUrls: true,
+        globalVars: {
+          var1: '"string value"',
+          var2: "regular value"
+        }
+      };
+    </script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/3.9.0/less.min.js"></script>
+    <script>
+      less.watch();
+    </script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <section class="notice" id="notice"></section>
+      <section class="alert" id="alert"></section>
+      <header class="main-nav">
+        <h1 hidden>Components Example page</h1>
+        <nav>
+          <ul>
+            <li><a href="">Nav 1</a></li>
+            <li><a href="">Nav 2</a></li>
+            <li><a href="">Nav 3</a></li>
+          </ul>
+        </nav>
+      </header>
+      <article class="content">
+        <h1>Featured on this page:</h1>
+        <my-text>
+            This page is styled using LESS and/or CSS.
+            This text comes from a Web Component who portraits the use of JS in this webpage as a module.
+            Also you must see an alert using normal JS from a file. You can also use JS inside of a script. 
+        </my-text>
+      </article>
+      <aside class="side">Sidebar</aside>
+      <div class="ad">Advertising</div>
+      <footer class="main-footer">The footer</footer>
+    </div>
+    <script type="module" src="./src/js/components/Text.js"></script>
+    <script src="./src/js/showme.js"></script>
+  </body>
+</html>
