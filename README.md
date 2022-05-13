@@ -1,4 +1,5 @@
 <!-- PROJECT SHIELDS -->
+
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues-open][issues-open-shield]][issues-url]
@@ -11,7 +12,7 @@
 <br />
 <p align="center">
   <a href="https://">
-	  <img src="https://img.icons8.com/color/96/000000/full-image.png" alt="Logo"/>
+	  <img src="https://user-images.githubusercontent.com/67714964/168343994-d195b77a-deda-4663-ba72-e2ae55147980.png" alt="Logo"/>
   </a>
 
   <h1 align="center">
@@ -32,33 +33,33 @@
 
 ## Table of Contents
 
-1. [JS no-webpack Template](#js-no-webpack-template)
-2. [Features](#features)
-3. [Pre Requisites](#pre-requisites)
-4. [Creating a new project](#creating-a-new-project)
-5. [Author](#author)
-6. [Contributing](#contributing)
-7. [Show your support](#show-your-support)
-8. [License](#license)
+- [JS no-webpack Template](#js-no-webpack-template)
+  - [Features](#features)
+- [Pre Requisites](#pre-requisites)
+  - [Creating a new project](#creating-a-new-project)
+  - [Troubleshooting](#troubleshooting)
+- [License](#license)
+- [Author](#author)
+- [Contributing](#contributing)
+- [Show your support](#show-your-support)
 
 # JS no-webpack Template
 
 Welcome to our Javascript template meant to be used for [Microverse](https://www.microverse.org/)'s projects on JS (before webpack)!
 Generate your JS project the easy way!
 
-
 ## Features
 
-* Setup a basic VanillaJS app with a single script or few commands
-* Makes LESS ready to use with all its benefits
-* Lets us use JS modules and ES6+ available for most browsers
-* Ready made examples on CSS and Less
-* Sets `stickler` on the repo
-* Sets `eslint` rules
-* Example of Web Components
-* Gives you a great README to start with
-* Easy to generate projects in GitHub
-* Meant to be useful for Microverse students and anyone that wants a JS' Apps (no webpack)
+- Setup a basic VanillaJS app with a single script or few commands
+- Makes LESS ready to use with all its benefits
+- Lets us use JS modules and ES6+ available for most browsers
+- Ready made examples on CSS and Less
+- Sets `stickler` on the repo
+- Sets `eslint` rules
+- Example of Web Components
+- Gives you a great README to start with
+- Easy to generate projects in GitHub
+- Meant to be useful for Microverse students and anyone that wants a JS' Apps (no webpack)
 
 # Pre Requisites
 
@@ -71,7 +72,7 @@ The script requires you to have:
 - Some common sense
 
 Now, this is meant to be used as a [GitHub Template](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template),
-so please don't clone this repository (unless you want to collaborate), 
+so please don't clone this repository (unless you want to collaborate),
 use [this button](https://github.com/Israel-Laguan/HTML-LESS-JS-no-webpack-starter/generate) instead.
 
 <div align="center">
@@ -82,13 +83,13 @@ use [this button](https://github.com/Israel-Laguan/HTML-LESS-JS-no-webpack-start
 
 ## Creating a new project
 
-After you used the template in your project, clone your project in you PC and 
-open a terminal inside your project, like this: 
+After you used the template in your project, clone your project in you PC and
+open a terminal inside your project, like this:
 
 ```
 git clone <your-repo-link>
 cd <Your-project>
-````
+```
 
 First run the [script](run_me.sh) provided:
 
@@ -101,7 +102,9 @@ In VS Code, Ctrl + Shift + X
 Search ESLint
 Install ESLint
 Restart VS Code
+
 <!-- https://travishorn.com/setting-up-eslint-on-vs-code-with-airbnb-javascript-style-guide-6eb78a535ba6 -->
+
 Last but not least the script remove this README and substitute for the renamed [README.TEMPLATE](README.TEMPLATE.md) (meant to be used for _Microverse Projects_), so if you are running each command instead of using the script make the change of READMEs manually.
 
 ## Troubleshooting
@@ -154,7 +157,7 @@ This project is licensed under the Apache 2 License - see the [LICENSE.md](LICEN
         </div>
     </td>
   </tr>
-</table> 
+</table>
 
 # Contributing
 
@@ -172,6 +175,7 @@ Icons from:
 <a href="https://icons8.com/icon/13917/full-image">Icons8</a>
 
 <!-- MARKDOWN LINKS & IMAGES -->
+
 [contributors-shield]: https://img.shields.io/github/contributors/Israel-Laguan/HTML-LESS-JS-no-webpack-starter?style=for-the-badge
 [contributors-url]: https://github.com/Israel-Laguan/HTML-LESS-JS-no-webpack-starter/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/Israel-Laguan/HTML-LESS-JS-no-webpack-starter?style=for-the-badge
