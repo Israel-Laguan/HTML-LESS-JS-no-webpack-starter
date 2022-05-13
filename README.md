@@ -12,7 +12,7 @@
 <br />
 <p align="center">
   <a href="https://">
-	  <img src="https://user-images.githubusercontent.com/67714964/168343994-d195b77a-deda-4663-ba72-e2ae55147980.png" alt="Logo"/>
+	  <img src="https://user-images.githubusercontent.com/67714964/168344853-52c25b5b-6306-460e-ab62-f8620f291130.png" alt="Logo"/>
   </a>
 
   <h1 align="center">
