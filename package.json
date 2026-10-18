@@ -26,7 +26,7 @@
   },
   "homepage": "https://github.com/Israel-Laguan/HTML-LESS-JS-no-webpack-starter#readme",
   "devDependencies": {
-    "eslint": "^6.8.0",
+    "eslint": "^10.13.0",
     "eslint-config-airbnb-base": "^14.0.0",
     "eslint-plugin-import": "^2.20.0"
   }
